@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import { FaBars, FaTimes } from "react-icons/fa"
 import { IconContext } from "react-icons/lib";
-import {Nav, NavbarContainer, NavLogo, NavIcon, MobileIcon,} from "./NavbarElements"
+import {Nav, NavbarContainer, NavLogo, NavIcon, MobileIcon, NavMenu, NavItem, NavLinks} from "./NavbarElements"
 
 const Navbar = () => {
 
