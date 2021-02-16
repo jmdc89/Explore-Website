@@ -16,3 +16,26 @@ export const Nav = styled.nav`
         transition: 0.8s all ease;
     }
 `
+
+export const NavbarContainer = styled.div`
+    display:flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1000px;
+`
+
+export const NavLogo = styled.(Link)`
+    color: #141414;
+    justify-self: flex-start;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+`
+
+export const NavIcon = styled(DiScala)`
+margin: 0 0.5rem 0 2rem;
+`
