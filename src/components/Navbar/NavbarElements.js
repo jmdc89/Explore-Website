@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import {DiScala} from "react-icons/Di"
 
 export const Nav = styled.nav`
     background: ${({active}) => active ? "#fff" : "linear-gradient(to bottom, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0) 100% )"};
@@ -26,7 +27,7 @@ export const NavbarContainer = styled.div`
     max-width: 1000px;
 `
 
-export const NavLogo = styled.(Link)`
+export const NavLogo = styled(Link)`
     color: #141414;
     justify-self: flex-start;
     cursor: pointer;
@@ -38,4 +39,18 @@ export const NavLogo = styled.(Link)`
 
 export const NavIcon = styled(DiScala)`
 margin: 0 0.5rem 0 2rem;
+`
+
+export const MobileIcon = styled.div`
+    display: none;
+
+    @media screen and (max-width: 960px) {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
 `

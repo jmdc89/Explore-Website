@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import { FaBars, Fatimes } from "react-icons/fa"
+import { FaBars, FaTimes } from "react-icons/fa"
 import { IconContex } from "react-icons/lib"
 
 const Navbar = () => {
@@ -29,6 +29,9 @@ const Navbar = () => {
                             <NavIcon />
                             EXPLOR
                         </NavLogo>
+                        <MobileIcon onClick={handleClick}>
+                            {click ? <FaTimes/> : <FaBars />}
+                        </MobileIcon>
                     </NavbarContainer>
                 </Nav>
             </IconContex.Provider>
