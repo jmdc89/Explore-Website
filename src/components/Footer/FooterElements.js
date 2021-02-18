@@ -1,4 +1,6 @@
-import { FaCentercode, FaColumns } from "react-icons/fa";
+import styled from "styled-components"
+import {Link} from "gatsby"
+import { DiScala } from react-icons/di
 
 export const FooterContainer = styled.div`
     background-color: #101522;
