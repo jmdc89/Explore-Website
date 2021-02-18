@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube} from "react-icons/fa"
+import {FooterContainer, SocialIcon, SocialIcons, SocialIconLink, SocialLogo, SocialMedia, SocialMediaWrap, WebsiteRights} from "./FooterElements"
 
 const Footer = () => {
     return (
@@ -35,3 +36,5 @@ const Footer = () => {
 
     )
 }
+
+export default Footer
