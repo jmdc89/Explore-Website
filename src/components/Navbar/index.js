@@ -42,9 +42,9 @@ const Navbar = () => {
                             <NavItem>
                                 <NavLinks to="/images">Images</NavLinks>
                             </NavItem>
-                            <NavItem>
+                            {/* <NavItem>
                                 <NavLinks to="/destinations">Destinations</NavLinks>
-                            </NavItem>
+                            </NavItem> */}
                         </NavMenu>
                     </NavbarContainer>
                 </Nav>

@@ -1,10 +1,11 @@
 import React from "react"
 import Layout from "../components/layout"
+import Image from "../components/image"
 
 
 const Images = () => (
     <Layout>
-          <h1>Images</h1>
+          <Image />
     </Layout>
 )
 

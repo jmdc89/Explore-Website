@@ -5,9 +5,9 @@ import { DiScala } from "react-icons/di"
 export const FooterContainer = styled.div`
     background-color: #101522;
     display: flex;
-    flex-direction: FaColumns;
-    justify-content: FaCentercode;
-    align-items: FaCentercode;
+    flex-direction: columns;
+    justify-content: center;
+    align-items: center;
 `
 
 export const SocialMedia = styled.section`
@@ -38,6 +38,10 @@ export const SocialLogo = styled(Link)`
     display: flex;
     align-items: center;
     margin-bottom: 16px;
+
+    @media screen and (max-width: 820px) {
+        display: none;
+    }
 `
 
 export const SocialIcon = styled(DiScala)`

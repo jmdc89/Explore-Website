@@ -91,6 +91,7 @@ export const NavLinks = styled(Link)`
     padding: 0.5rem 1rem;
     height: 100%;
     font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
 
     @media screen and (max-width: 960px) {
         text-align: center;

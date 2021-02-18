@@ -1,5 +1,6 @@
+
 .hero-container {
-    background: url("../../images/background2.jpg") center center/cover no-repeat;
+    // background: url("../../images/background2.jpg") center center/cover no-repeat;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -12,15 +13,17 @@
 }
 
 .hero-container > h1 {
-    color: #fff;
+    color: rgb(46, 44, 44);
     font-size: 100px;
     margin-top: 0px;
+    text-align: center;
 }
 
 .hero-container > p {
     margin-top: 8px;
-    color: #fff;
+    color: rgb(82, 79, 79);
     font-size: 32px;
+    text-align: center;
 }
 
 .hero-btns {
@@ -36,6 +39,7 @@
 @media screen and (max-width: 768px) {
     .hero-container > h1 {
         font-size: 60px;
+        align-items: center;
     }
 
     .hero-container > p {
